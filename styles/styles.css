@@ -1,0 +1,19 @@
+/* .background-container   */
+    body {
+        background-image: url(../img/jana-sabeth-2jo9YbjHF1Y-unsplash.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: fixed;
+        position: relative;
+    }      
+    img {
+        width: 100%;
+        height: auto;
+    }  
+    .portfolio-wrapper--flex{
+        
+    }  
+    
+    .portfolio-wrapper--flex > .portfolio__card--flex {
+        margin: .3rem;
+    }
