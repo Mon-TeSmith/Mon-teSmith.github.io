@@ -1,6 +1,6 @@
 /* .background-container   */
     body {
-        background-image: url(../img/jana-sabeth-2jo9YbjHF1Y-unsplash.jpeg);
+        background-image: url(../img/derek-story-Ss8067hJ6aM-unsplash.jpeg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: fixed;
@@ -11,9 +11,24 @@
         height: auto;
     }  
     .portfolio-wrapper--flex{
-        
+        margin-top: 3rem;
+        margin-right: 30rem;
+        width: 70vw;
+        padding: 1rem;
+        display: flex;
+        flex-wrap: wrap;
     }  
     
     .portfolio-wrapper--flex > .portfolio__card--flex {
-        margin: .3rem;
+        margin: .2rem;
+    }
+
+    .portfolio-wrapper--flex .card {
+        width: 16rem;
+    }
+    
+    .portfolio-features {
+        position: fixed;
+        margin: 2rem 3rem;
+        right: 0;
     }
