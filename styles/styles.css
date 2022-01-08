@@ -3,32 +3,38 @@
         background-image: url(../img/derek-story-Ss8067hJ6aM-unsplash.jpeg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: fixed;
+        background-position: top;
+        background-attachment: fixed;
         position: relative;
-    }      
+    }  
+
     img {
         width: 100%;
         height: auto;
     }  
-    .portfolio-wrapper--flex{
-        margin-top: 3rem;
-        margin-right: 30rem;
-        width: 70vw;
-        padding: 1rem;
-        display: flex;
-        flex-wrap: wrap;
-    }  
+    #home {
+        color: blue;
+        margin-top: 6vh; }
+    #about {
+        color: rgb(242, 233, 233);
+        margin-top: 100vh;
+    }
+ 
     
-    .portfolio-wrapper--flex > .portfolio__card--flex {
+.portfolio-wrapper--flex > .portfolio__card--flex {
         margin: .2rem;
-    }
+}
 
-    .portfolio-wrapper--flex .card {
-        width: 16rem;
-    }
+#portfolio {
+        color: rgb(242, 233, 233);
+        margin-left: 100vh;
+}
     
-    .portfolio-features {
-        position: fixed;
-        margin: 2rem 3rem;
-        right: 0;
-    }
+#contacts {
+    color: black;
+    margin-top: 100vh;
+}
+
+.footer {
+    margin-top: 50vh;
+}
