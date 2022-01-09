@@ -13,11 +13,11 @@
         height: auto;
     }  
     #home {
-        color: blue;
+        color: cornsilk;
         margin-top: 6vh; }
     #about {
-        color: rgb(242, 233, 233);
-        margin-top: 100vh;
+        color: cornsilk;
+        scroll-margin-right: 100vh;
     }
  
     
@@ -25,15 +25,15 @@
         margin: .2rem;
 }
 
-#portfolio {
+    #portfolio {
         color: rgb(242, 233, 233);
-        margin-left: 100vh;
-}
+        margin-left: auto;
+    }
     
-#contacts {
-    color: black;
-    margin-top: 100vh;
-}
+    #contacts {
+    color: cornsilk;
+    margin-right: auto;
+    }
 
 .footer {
     margin-top: 50vh;
